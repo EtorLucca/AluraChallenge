@@ -66,12 +66,12 @@
             </div>
         </nav>
         <div class="principal">
-            <div class="code__editor">
+            <div class="code__editor" id="code__editor">
                 <div class="code__editor--text">
                     <div class="elipse red"><span class="none">.</span></div>
                     <div class="elipse yellow"><span class="none">.</span></div>
                     <div class="elipse green"><span class="none">.</span></div>
-                    <textarea type="text" class="text__editor" placeholder="1 Digite aqui o seu código!"></textarea>
+                    <textarea type="text" id="text__editor" class="text__editor" placeholder="1 Digite aqui o seu código!"></textarea>
                 </div>
             </div>
             <div class="main__button">
@@ -101,7 +101,7 @@
                     </select>
                 </div>
                 <div class="project__color">
-                    <input name="colorPicker" class="project__color--picker" type="color" value="#6BD1FF">    
+                    <input id="color" class="project__color--picker" type="color" value="#6BD1FF" oninput="ReturnColor()">    
                 </div>
             </div>
             <div class="project__save">
