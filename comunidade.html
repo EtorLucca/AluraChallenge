@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraDev | AluraChallenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/389645fe7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo--img" alt="Logo AluraDev" src="./img/logo-plataforma.png">
+        </div>
+        <div class="header__pesquisa">
+            <input class="header__input" type="text" placeholder="Busque por algo">
+        </div>
+        <div class="pesquisa__icone"><i class="fas fa-search"></i></div>
+        <div class="menu__icone"><i class="fas fa-bars"></i></div>
+        <div class="header__perfil">
+            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+            <span class="header__perfil--nome">Harry</span>
+        </div>
+<!--Menu flutuante-->
+        <div class="menu__flutuante">    
+            <div class="exit">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="menu__nav--div" onclick="editor()">
+                <div class="menu__nav--icode"><i class="fas fa-code"></i></div>
+                <div class="menu__nav--text"><span>Editor de código</span></div>
+            </div>
+            <div class="menu__nav--div" onclick="comunidade()">
+                <div class="menu__nav--iusers"><i class="fas fa-users active"></i></div>
+                <div class="menu__nav--text active"><span>Comunidade</span></div>
+            </div>
+            <div class="hr">.</div>
+            <div class="header__perfil--flutuante">
+                <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                <span class="header__perfil--nome">Harry</span>
+            </div>
+            <div class="header__pesquisa--flutuante">
+                <input class="header__input" type="text" placeholder="Busque por algo">
+            </div>
+        </div>
+<!--Fim do menu flutuante-->
+
+    </header>
+    <main class="main">
+        <nav class="menu">
+            <div class="menu__titulo">MENU</div>
+            <div class="menu__nav">
+                <div class="menu__nav--div" onclick="editor()">
+                    <div class="menu__nav--icode"><i class="fas fa-code active"></i></div>
+                    <div class="menu__nav--text active"><span>Editor de código</span></div>
+                </div>
+                <div class="menu__nav--div" onclick="comunidade()">
+                    <div class="menu__nav--iusers"><i class="fas fa-users"></i></div>
+                    <div class="menu__nav--text"><span>Comunidade</span></div>
+                </div>
+            </div>
+        </nav>
+        <div class="destaque">
+            <div class="container">
+
+<!-- Primeiro projeto -->
+
+                <div class="project">
+                    <div class="code__navegacao">
+                        <div class="code__navegacao--text">
+                            <div class="elipse__small red__small"><span class="none">.</span></div>
+                            <div class="elipse__small yellow__small"><span class="none">.</span></div>
+                            <div class="elipse__small green__small"><span class="none">.</span></div>
+                            <div class="text__navegacao" >O seu código será exibido aqui</div>
+                        </div>
+                    </div>  
+                    <div>
+                        <h2 class="projetos__titulo">Título do Projeto</h2>
+                        <span class="projetos__descricao">Essa é a descrição do meu projeto.</span>
+                    </div>
+                    <div class="projetos__chat">
+                        <div class="projetos__chat--modificador">
+                            <div class="projetos__comentarios">
+                                <i class="fas fa-comment"></i>
+                                <span class="contador__comentarios">9</span>
+                            </div>
+                            <div class="projetos__like">
+                                <i class="fas fa-heart"></i>
+                                <span class="contador__like">9</span>
+                            </div>
+                        </div>
+                        
+                        <div class="projetos__perfil">
+                            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                            <span class="header__perfil--nome">@Harry</span>
+                        </div>
+                    </div>
+                </div>
+                
+<!--Segundo projeto-->
+                <div class="project">
+                    <div class="code__navegacao">
+                        <div class="code__navegacao--text">
+                            <div class="elipse__small red__small"><span class="none">.</span></div>
+                            <div class="elipse__small yellow__small"><span class="none">.</span></div>
+                            <div class="elipse__small green__small"><span class="none">.</span></div>
+                            <div class="text__navegacao" >O seu código será exibido aqui</div>
+                        </div>
+                    </div>  
+                    <div>
+                        <h2 class="projetos__titulo">Título do Projeto</h2>
+                        <span class="projetos__descricao">Essa é a descrição do meu projeto.</span>
+                    </div>
+                    <div class="projetos__chat">
+                        <div class="projetos__chat--modificador">
+                            <div class="projetos__comentarios">
+                                <i class="fas fa-comment"></i>
+                                <span class="contador__comentarios">9</span>
+                            </div>
+                            <div class="projetos__like">
+                                <i class="fas fa-heart"></i>
+                                <span class="contador__like">9</span>
+                            </div>
+                        </div>
+                        
+                        <div class="projetos__perfil">
+                            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                            <span class="header__perfil--nome">@Harry</span>
+                        </div>
+                    </div>
+                </div>                
+<!--Terceiro projeto-->
+                <div class="project">
+                    <div class="code__navegacao">
+                        <div class="code__navegacao--text">
+                            <div class="elipse__small red__small"><span class="none">.</span></div>
+                            <div class="elipse__small yellow__small"><span class="none">.</span></div>
+                            <div class="elipse__small green__small"><span class="none">.</span></div>
+                            <div class="text__navegacao" >O seu código será exibido aqui</div>
+                        </div>
+                    </div>  
+                    <div>
+                        <h2 class="projetos__titulo">Título do Projeto</h2>
+                        <span class="projetos__descricao">Essa é a descrição do meu projeto.</span>
+                    </div>
+                    <div class="projetos__chat">
+                        <div class="projetos__chat--modificador">
+                            <div class="projetos__comentarios">
+                                <i class="fas fa-comment"></i>
+                                <span class="contador__comentarios">9</span>
+                            </div>
+                            <div class="projetos__like">
+                                <i class="fas fa-heart"></i>
+                                <span class="contador__like">9</span>
+                            </div>
+                        </div>
+                        
+                        <div class="projetos__perfil">
+                            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                            <span class="header__perfil--nome">@Harry</span>
+                        </div>
+                    </div>
+                </div>                
+<!--Quarto projeto-->                            
+                <div class="project">
+                    <div class="code__navegacao">
+                        <div class="code__navegacao--text">
+                            <div class="elipse__small red__small"><span class="none">.</span></div>
+                            <div class="elipse__small yellow__small"><span class="none">.</span></div>
+                            <div class="elipse__small green__small"><span class="none">.</span></div>
+                            <div class="text__navegacao" >O seu código será exibido aqui</div>
+                        </div>
+                    </div>  
+                    <div>
+                        <h2 class="projetos__titulo">Título do Projeto</h2>
+                        <span class="projetos__descricao">Essa é a descrição do meu projeto.</span>
+                    </div>
+                    <div class="projetos__chat">
+                        <div class="projetos__chat--modificador">
+                            <div class="projetos__comentarios">
+                                <i class="fas fa-comment"></i>
+                                <span class="contador__comentarios">9</span>
+                            </div>
+                            <div class="projetos__like">
+                                <i class="fas fa-heart"></i>
+                                <span class="contador__like">9</span>
+                            </div>
+                        </div>
+                        
+                        <div class="projetos__perfil">
+                            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                            <span class="header__perfil--nome">@Harry</span>
+                        </div>
+                    </div>
+                </div>                
+
+
+            </div>
+<!--Fim container dos projetos-->
+        </div>
+        
+    </main>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+</html>

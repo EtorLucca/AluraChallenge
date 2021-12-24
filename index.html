@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraDev | AluraChallenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/389645fe7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo--img" alt="Logo AluraDev" src="./img/logo-plataforma.png">
+        </div>
+        <div class="header__pesquisa">
+            <input class="header__input" type="text" placeholder="Busque por algo">
+        </div>
+        <div class="pesquisa__icone"><i class="fas fa-search"></i></div>
+        <div class="menu__icone"><i class="fas fa-bars"></i></div>
+        <div class="header__perfil">
+            <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+            <span class="header__perfil--nome">Harry</span>
+        </div>
+<!--Inicio do menu flutuante-->
+        <div class="menu__flutuante">
+            <div class="exit">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="menu__nav--div" onclick="editor()">
+                <div class="menu__nav--icode"><i class="fas fa-code active"></i></div>
+                <div class="menu__nav--text active"><span>Editor de código</span></div>
+            </div>
+            <div class="menu__nav--div" onclick="comunidade()">
+                <div class="menu__nav--iusers"><i class="fas fa-users"></i></div>
+                <div class="menu__nav--text"><span>Comunidade</span></div>
+            </div>
+            <div class="hr">.</div>
+            <div class="header__perfil--flutuante">
+                <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
+                <span class="header__perfil--nome">Harry</span>
+            </div>
+            <div class="header__pesquisa--flutuante">
+                <input class="header__input" type="text" placeholder="Busque por algo">
+            </div>
+        </div>
+<!--Fim do menu flutuante-->
+
+    </header>
+    <main class="main">
+        <nav class="menu">
+            <div class="menu__titulo">MENU</div>
+            <div class="menu__nav">
+                <div class="menu__nav--div" onclick="editor()">
+                    <div class="menu__nav--icode"><i class="fas fa-code active"></i></div>
+                    <div class="menu__nav--text active"><span>Editor de código</span></div>
+                </div>
+                <div class="menu__nav--div" onclick="comunidade()">
+                    <div class="menu__nav--iusers"><i class="fas fa-users"></i></div>
+                    <div class="menu__nav--text"><span>Comunidade</span></div>
+                </div>
+            </div>
+        </nav>
+        <div class="principal">
+            <div class="code__editor">
+                <div class="code__editor--text">
+                    <div class="elipse red"><span class="none">.</span></div>
+                    <div class="elipse yellow"><span class="none">.</span></div>
+                    <div class="elipse green"><span class="none">.</span></div>
+                    <textarea type="text" class="text__editor" placeholder="1 Digite aqui o seu código!"></textarea>
+                </div>
+            </div>
+            <div class="main__button">
+                Visualizar com o highlight
+            </div>
+        </div>
+        <div class="barra__lateral">
+            <div class="project__title">
+                SEU PROJETO
+            </div>
+            <div>
+                <input type="text" class="project__name" placeholder="Nome do seu projeto">
+            </div>
+            <div>
+                <input type="text" class="project__description" placeholder="Descrição do seu projeto">
+            </div>
+            <div class="project__title">
+                PERSONALIZAÇÃO
+            </div>
+            <div class="flex__tablet">
+                <div class="project__language">
+                    <select class="project__language--select">
+                        <option class="project__language--option" selected>JavaScript</option>
+                        <option class="project__language--option">CSS</option>
+                        <option class="project__language--option">HTML</option>
+                        <option class="project__language--option">PHP</option>
+                    </select>
+                </div>
+                <div class="project__color">
+                    <input name="colorPicker" class="project__color--picker" type="color" value="#6BD1FF">    
+                </div>
+            </div>
+            <div class="project__save">
+                Salvar projeto
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+</html>
