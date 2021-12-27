@@ -213,16 +213,17 @@
     
     .text__editor{
         background-color: #141414;
-        border: none;
+        border: 1px solid red;
         box-sizing: border-box;
         color: #ffffff;
         font-family: "Roboto Mono", sans-serif;
         font-size: 14px;
         line-height: 18px;
         margin: 32px 0 0 0;
-        resize: none;
-        width: 100%;
+        position: absolute;
+        width: 95%;
         min-height: 234px;
+        white-space: pre-wrap;
     }
     
     .main__button{

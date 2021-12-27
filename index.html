@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/389645fe7b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <link rel="stylesheet" href="./css/githubdark.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
@@ -49,7 +51,6 @@
             </div>
         </div>
 <!--Fim do menu flutuante-->
-
     </header>
     <main class="main">
         <nav class="menu">
@@ -71,7 +72,9 @@
                     <div class="elipse red"><span class="none">.</span></div>
                     <div class="elipse yellow"><span class="none">.</span></div>
                     <div class="elipse green"><span class="none">.</span></div>
-                    <textarea type="text" id="text__editor" class="text__editor" placeholder="1 Digite aqui o seu código!"></textarea>
+                    <div class="code__wrapper">
+                        <code class="text__editor" contenteditable="true" aria-label="Editor de código">Digite aqui o seu código!</code>
+                    </div>
                 </div>
             </div>
             <div class="main__button">
@@ -111,6 +114,7 @@
     </main>
 
     <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
 
 </body>
 </html>
