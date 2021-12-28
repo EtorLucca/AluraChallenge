@@ -11,8 +11,8 @@
     <script src="https://kit.fontawesome.com/389645fe7b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
     <link rel="stylesheet" href="./css/githubdark.css">
-    <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body class="body">
     <header class="header">
@@ -107,13 +107,15 @@
                     <input id="color" class="project__color--picker" type="color" value="#6BD1FF" oninput="ReturnColor()">    
                 </div>
             </div>
-            <div class="project__save">
+            <div class="project__save" onclick="salvaProjeto()">
                 Salvar projeto
             </div>
         </div>
     </main>
 
+    <script type="text/javascript" src="./js/main.js"></script>
     <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/carregaprojetos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
 
 </body>
