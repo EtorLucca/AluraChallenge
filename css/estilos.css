@@ -8,6 +8,10 @@
     .none{
         display: none;
     }
+
+    .flex{
+        display: flex;
+    }
     
     /*cabeçalho*/
     
@@ -69,10 +73,6 @@
     
     .header__input:hover{
         background-color: #FFFFFF3D;
-    }
-
-    .menu__flutuante{
-        display: none;
     }
     
     /*Área principal - MAIN*/
@@ -223,8 +223,9 @@
         margin: 32px 0 0 0;
         overflow-y: auto;
         position: absolute;
-        width: 95%;
+        width: 90%;
         height: 234px;
+        resize: none;   
         white-space: pre-wrap;
     }
     
@@ -559,7 +560,6 @@
         background-color: #2D415B;
         border-radius: 8px;
         box-sizing: border-box;
-        display: flex;
         flex-wrap: wrap;
         padding: 16px;
         position: absolute;
@@ -681,11 +681,13 @@
         font-size: 21px;
     }
 
+
+
+
     .menu__flutuante{
         background-color: #2D415B;
         border-radius: 8px;
         box-sizing: border-box;
-        display: flex;
         flex-wrap: wrap;
         padding: 16px;
         position: absolute;

@@ -55,7 +55,7 @@ const Projetos = ({cor, nomeProjeto, descricao, code}) => {
             </div>
             <div class="projetos__perfil">
                 <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
-                <span class="header__perfil--nome">@Harry</span>
+                <span class="header__perfil--nome">@Étor</span>
             </div>
         </div>
     </div>`
