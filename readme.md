@@ -10,7 +10,6 @@ Linguagens utilizadas até o momento:
 
 Próximos passos:
 - Implementação de edição de código salvo (página comunidade.html)
-- Implementação de expertação de código em png, svg ou jpg
 - Arrumar documentação do projeto
 - Colocar aplicação no ar
 
