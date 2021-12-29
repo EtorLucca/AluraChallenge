@@ -124,7 +124,7 @@
 }
 
 .menu__nav--icode{
-    background-color: #5081FB;
+    background-color: #5081FB26;
     border-radius: 16px;
     box-sizing: border-box;
     color: #ffffff8C;
@@ -132,18 +132,30 @@
     align-items: center;
     justify-content: center;
     margin: 0 16px 0 0 ;
+    overflow: hidden;
     height: 48px;
     width: 48px;
+}
+
+.active{
+    color: #ffffff;
+}
+
+.active__icon{
+    color: #ffffff;
+    background-color: #5081FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 .menu__nav--text{
     color: #ffffff8C;
     font-size: 16px;
     line-height: 24px;
-}
-
-.active{
-    color: #ffffff;
 }
 
 .menu__nav--iusers{
@@ -155,6 +167,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 16px 0 0;
+    overflow: hidden;
     height: 48px;
     width: 48px;
 }
