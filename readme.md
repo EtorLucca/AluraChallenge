@@ -7,8 +7,12 @@ Linguagens utilizadas até o momento:
 - CSS
 - JavaScript
 
-Ainda é necessário separar o arquivo estilo.css para facilitar a leitura do código.
 
+Próximos passos:
+- Implementação de edição de código salvo (página comunidade.html)
+- Implementação de expertação de código em png, svg ou jpg
+- Arrumar documentação do projeto
+- Colocar aplicação no ar
 
 
 Aprendizados durante a elaboração do projeto até agora:
@@ -17,3 +21,9 @@ Aprendizados durante a elaboração do projeto até agora:
 - Estilo e posicionamento CSS
 - Estrutura de funções JS
 - Função JS para troca de propriedades de elemento HTML/ estilo CSS
+- Implementação de salvamento de formulário e posterior listagem dos dados salvos com localstorage
+
+Screenshots do projeto:
+
+<img src="./img/index.png">
+<img src="./img/comunidade.png">

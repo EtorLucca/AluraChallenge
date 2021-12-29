@@ -1,0 +1,375 @@
+@media screen and (min-width: 968px){
+    .menu__icone{
+        display: none;
+    }
+
+    .pesquisa__icone{
+        display: none;
+    }
+    
+    .project:hover .projetos__chat{
+        display:flex;
+}
+}
+
+@media screen and (max-width: 968px){
+    .header{
+        width: auto;
+    }
+
+    .header__perfil{
+        display: none;
+    }
+
+    .menu__icone{
+        color: #fff;
+        display: inline;
+        font-size: 21px;
+    }
+
+    .menu__icone:hover{
+        background-color: #5081FB14;
+    }
+
+    .pesquisa__icone{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu__flutuante{
+        background-color: #2D415B;
+        border-radius: 8px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        padding: 16px;
+        position: absolute;
+        right: 116px;
+        top: 50px;
+        transform: translate(100px ,50px);
+        width: 254px;
+        z-index: 10;
+    }
+    
+    .exit{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .fa-times{
+        color: #fff;
+        font-size: 21px;
+    }
+
+    .header__perfil--flutuante{
+        display: flex;
+        align-items: center;
+        margin: 32px 0 0 0 ;
+    }
+
+    .header__pesquisa--flutuante{
+        display: none;
+    }
+
+    .hr{
+        border-bottom: 1px solid #ffffff26;
+        width: 80%; 
+        margin: 0 0 0 16px;
+    }
+
+    .menu__nav--div{
+        font-size: 16px;
+    }
+
+    .projetos__chat{
+        display:flex;
+    }
+
+    .main{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+    }
+
+    .principal{
+        width: 100%;
+    }
+
+    .barra__lateral{
+        margin: 0 32px;
+        padding: 0 32px;
+        width: 100%;
+    }
+
+    .project__title{
+        margin: 32px 32px;
+    }
+
+    .project__name{
+        width: 90%;
+        margin: 16px 32px;
+    }
+    
+    .project__description{
+        width: 90%;
+        margin: 16px 32px;
+    }
+
+    .flex__tablet{
+        width: 90%;
+        margin-left: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project__language, .project__color{
+        width: 49%;
+    }
+
+    .project__color--picker{
+        margin: 10px;
+    }
+
+    .project__save{
+        width: 90%;
+        margin-left: 32px;
+        margin-bottom: 50px;
+    }
+
+    .project, .code__navegacao, .code__navegacao--text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .header{
+        width: auto;
+        margin: 0 36px 36px 0;
+    }
+
+    .header__pesquisa{
+        display: none;
+    }
+
+    .pesquisa__icone{
+        display: inline;
+        color: #fff;
+        font-size: 21px;
+    }
+
+    .menu__flutuante{
+        background-color: #2D415B;
+        border-radius: 8px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        padding: 16px;
+        position: absolute;
+        right: 116px;
+        top: 0;
+        transform: translate(100px ,50px);
+        width: 200px;
+        z-index: 10;
+    }
+    
+    .exit{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .fa-times{
+        color: #fff;
+        font-size: 21px;
+    }
+
+    .header__perfil--flutuante{
+        display: flex;
+        align-items: center;
+        margin: 32px 0 0 0 ;
+    }
+
+    .header__pesquisa--flutuante{
+        display: inline;
+        margin-top: 16px
+    }
+
+    .hr{
+        border-bottom: 1px solid #ffffff26;
+        width: 80%; 
+        margin: 0 0 0 16px;
+    }
+
+    .menu__nav--text, .menu__nav--icode{
+        font-size: 12px;
+    }
+
+    .main{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+        padding: 0 16px;
+    }
+
+    .principal{
+        width: 100%;
+    }
+
+    .code__navegacao{
+        padding: 16px;
+    }
+
+    .code__navegacao--text{
+        height: 100%;
+    }
+
+    .code__editor{
+        width: 100%;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .code__editor--text{
+        height: 100%;
+    }
+
+    .text__editor{
+        resize: vertical
+    }
+    
+    .barra__lateral{
+        margin: 0 32px;
+        padding: 0 32px;
+        width: 100%;
+    }
+
+    .elipse{
+        border-radius: 100%;
+        width: 9px;
+        height: 9px;
+    }
+    
+    .red{
+        background-color: #FF5F56;
+        left: 12px;
+        position: absolute;
+        top: 12px;
+    }
+    
+    .yellow{
+        background-color: #FFBD2E;
+        left: 24px;
+        position: absolute;
+        top: 12px;
+    }
+    
+    .green{
+        background-color: #27C93F;
+        left: 36px;
+        position: absolute;
+        top: 12px;
+    }
+
+    .main__button{
+        width: 100%;
+        margin: 32px 0;
+    }
+
+    .barra__lateral{
+        padding: 0;
+    }
+
+    .project__title{
+        margin: 16px 0 0 0;
+    }
+
+    .project__name{
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .project__description{
+        width: 100%;
+        margin: 0 0 32px 0;
+    }
+    
+    .flex__tablet{
+        margin: 0;
+        width: 100%;
+        display: block
+    }
+
+    .project__language{
+        width: 100%;
+    }
+
+    .project__color{
+        width: 100%;
+    }
+
+    .project__save{
+        width: 100%;
+        margin: 32px 0 32px 0;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        margin: 0;
+    }
+
+    .project{
+        width: 100%;
+        margin: 0 0 32px 0;
+        padding: 0;
+    }
+
+    .text__navegacao{
+        width: 100%;
+    }
+
+    .projetos__titulo{
+        margin: 24px 0 8px 12px;
+    }
+
+    .projetos__descricao{
+        margin: 0 0 36px 12px;
+    }
+
+    .projetos__chat{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+    }
+
+    .projetos__comentarios{
+        margin: 0;
+    }
+
+    .projetos__chat--modificador{
+        flex-grow: 2;
+        justify-content: start;
+    }
+
+    .projetos__perfil{
+        flex-grow: 1;
+        padding: 0;
+    }
+
+    .projetos__like{
+        margin-right: 24px;
+    }
+
+    .lista__projetos{
+        width: 100%;
+    }
+}
