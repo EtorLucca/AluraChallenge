@@ -29,7 +29,7 @@ const Projetos = ({cor, nomeProjeto, descricao, code}) => {
     const projeto = document.createElement('div')
     projeto.classList.add('lista__projetos')
     const conteudo = `<div class="project">
-        <div class="code__navegacao" style="background-color:${color};" onclick="EditaProjeto()">
+        <div class="code__navegacao" style="background-color:${color};">
             <div class="code__navegacao--text">
                 <div class="elipse__small red__small"><span class="none">.</span></div>
                 <div class="elipse__small yellow__small"><span class="none">.</span></div>
@@ -61,7 +61,7 @@ const Projetos = ({cor, nomeProjeto, descricao, code}) => {
     </div>`
     
     projeto.innerHTML = conteudo
-        
+
     return projeto;
 }
 
@@ -69,8 +69,8 @@ const Projetos = ({cor, nomeProjeto, descricao, code}) => {
 
 const carregaProjetos = () => {
     
-    const lista = document.querySelector('[data-list]');
-    const projetosSalvos = JSON.parse(localStorage.getItem('projetos')) || [];
+    const lista = document.querySelector('[data-list]')
+    const projetosSalvos = JSON.parse(localStorage.getItem('projetos')) || []
 
     projetosSalvos.forEach((projetosSalvos) => {
         lista.appendChild(Projetos(projetosSalvos))

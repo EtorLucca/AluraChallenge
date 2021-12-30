@@ -25,7 +25,7 @@
             <input class="header__input" type="text" placeholder="Busque por algo">
         </div>
         <div class="pesquisa__icone"><i class="fas fa-search"></i></div>
-        <div class="menu__icone"><i class="fas fa-bars"></i></div>
+        <div class="menu__icone" onclick="menuAbrir()"><i class="fas fa-bars"></i></div>
         <div class="header__perfil">
             <img src="./img/foto-perfil.png" alt="imagem perfil" class="header__perfil--img">
             <span class="header__perfil--nome">Étor</span>
@@ -33,7 +33,7 @@
 <!--Menu flutuante-->
         <div id="menu__flutuante" class="menu__flutuante none">    
             <div class="exit">
-                <i class="fas fa-times"></i>
+                <i class="fas fa-times" onclick="menuFechar()"></i>
             </div>
             <div class="menu__nav--div" onclick="editor()">
                 <div class="menu__nav--icode"><i class="fas fa-code"></i></div>

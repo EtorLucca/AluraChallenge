@@ -9,7 +9,8 @@ Linguagens utilizadas até o momento:
 
 
 Próximos passos:
-- Implementação de edição de código salvo (página comunidade.html)
+- Implementar edição de projetos salvos
+- Implementar funcionalidades de pesquisa e login
 - Arrumar documentação do projeto
 - Colocar aplicação no ar
 
